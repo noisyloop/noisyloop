@@ -1,4 +1,5 @@
 # [noisyloop](https://noisyloop.github.io/) - lab write ups and security research (sometimes with my own coded tools).
+
 Engineer, full-stack developer, creator. 20+ years writing code across the full stack, from product interfaces down to the systems layer where most people stop looking.
 AI for lab experiments + deeper understanding.
 
@@ -13,13 +14,6 @@ Hooks into inference processes at the kernel boundary. Fingerprints query patter
 
 ---
 
-**[Milly](https://github.com/noisyloop/milly)**
-The first local LLM with a built-in security layer.
-HMAC-signed memory. TF-IDF RAG. Air-gapped by design. Zero egress. 136 passing tests covering memory integrity, injection resistance, and audit logging.
-`Python` · `Ollama` · `AI Security`
-
----
-
 **[ghostwire](https://github.com/noisyloop/ghostwire)**
 Passive USB device fingerprinting and anomaly detection daemon.
 Detects BadUSB implants, HID injection devices, and hardware anomalies at the enumeration layer — before the OS finishes booting the driver. Silent. Rust. No kernel module required.
@@ -27,16 +21,23 @@ Detects BadUSB implants, HID injection devices, and hardware anomalies at the en
 
 ---
 
-**[EverythingOS](https://github.com/noisyloop/everythingos)**
-Security-first multi-agent framework for autonomous systems.
-ModelGuard input/output validation. DecisionLedger audit trail. NIST AI RMF aligned. 81/81 tests passing, zero TypeScript errors. Built under the Robots For Peace framework.
-`TypeScript` · `Autonomous Agents` · `AI Governance`
+**[Milly](https://github.com/noisyloop/milly)**
+The first local LLM with a built-in security layer.
+HMAC-signed memory. TF-IDF RAG. Air-gapped by design. Zero egress. 136 passing tests covering memory integrity, injection resistance, and audit logging.
+`Python` · `Ollama` · `AI Security`
 
 ---
 
 **[passive-intel](https://github.com/noisyloop/passive-intel)**
-Passive threat intelligence collection and correlation.
-`Python` · `OSINT` · `Threat Intel`
+Passive threat-intel console for defenders. CISA KEV, URLhaus, and Feodo Tracker in one UI — actively exploited CVEs, live malware URLs, and botnet C2 IPs. No API keys. No cost. Includes a blocklist endpoint you can feed directly into nginx, ufw, or Cloudflare.
+`JavaScript` · `OSINT` · `Threat Intel`
+
+---
+
+**[EverythingOS](https://github.com/noisyloop/everythingos)**
+Security-first multi-agent framework for autonomous systems.
+ModelGuard input/output validation. DecisionLedger audit trail. NIST AI RMF aligned. 81/81 tests passing, zero TypeScript errors. Built under the Robots For Peace framework.
+`TypeScript` · `Autonomous Agents` · `AI Governance`
 
 ---
 
@@ -53,6 +54,7 @@ Passive threat intelligence collection and correlation.
 ---
 
 ## Stack
+
 `Rust` · `Python` · `TypeScript` · `JavaScript` · `React` · `Three.js` · `eBPF` · `mitmproxy` · `Ollama`
 Kernel-level tooling · Detection engineering · AI security · Autonomous systems · Creative coding
 
