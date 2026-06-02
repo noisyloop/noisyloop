@@ -1,29 +1,47 @@
 # [noisyloop](https://noisyloop.github.io/) - lab write ups and security research (sometimes with my own coded tools).
 Engineer, full-stack developer, creator. 20+ years writing code across the full stack, from product interfaces down to the systems layer where most people stop looking.
 AI for lab experiments + deeper understanding.
+
 ---
+
 ## Security Tooling
-### [Glasswally](https://github.com/noisyloop/glasswally)
-**Real-time LLM distillation attack detection via eBPF kernel uprobes.**  
-Hooks into inference processes at the kernel boundary. Fingerprints query patterns. Alerts before a model theft completes. MITRE ATT&CK mapped.  
+
+**[Glasswally](https://github.com/noisyloop/glasswally)**
+Real-time LLM distillation attack detection via eBPF kernel uprobes.
+Hooks into inference processes at the kernel boundary. Fingerprints query patterns. Alerts before a model theft completes. MITRE ATT&CK mapped.
 `Rust` · `eBPF` · `Detection Engineering` · `AI Security`
+
 ---
-### [Milly](https://github.com/noisyloop/milly)
-**The first local LLM with a built-in security layer.**  
-HMAC-signed memory. TF-IDF RAG. Air-gapped by design. Zero egress. 136 passing tests covering memory integrity, injection resistance, and audit logging.  
+
+**[Milly](https://github.com/noisyloop/milly)**
+The first local LLM with a built-in security layer.
+HMAC-signed memory. TF-IDF RAG. Air-gapped by design. Zero egress. 136 passing tests covering memory integrity, injection resistance, and audit logging.
 `Python` · `Ollama` · `AI Security`
+
 ---
-### [ghostwire](https://github.com/noisyloop/ghostwire)
-**Passive USB device fingerprinting and anomaly detection daemon.**  
-Detects BadUSB implants, HID injection devices, and hardware anomalies at the enumeration layer — before the OS finishes booting the driver. Silent. Rust. No kernel module required.  
+
+**[ghostwire](https://github.com/noisyloop/ghostwire)**
+Passive USB device fingerprinting and anomaly detection daemon.
+Detects BadUSB implants, HID injection devices, and hardware anomalies at the enumeration layer — before the OS finishes booting the driver. Silent. Rust. No kernel module required.
 `Rust` · `Linux` · `Endpoint Security` · `Hardware Fingerprinting`
+
 ---
-### [EverythingOS](https://github.com/noisyloop/everythingos)
-**Security-first multi-agent framework for autonomous systems.**  
-ModelGuard input/output validation. DecisionLedger audit trail. NIST AI RMF aligned. 81/81 tests passing, zero TypeScript errors. Built under the Robots For Peace framework.  
+
+**[EverythingOS](https://github.com/noisyloop/everythingos)**
+Security-first multi-agent framework for autonomous systems.
+ModelGuard input/output validation. DecisionLedger audit trail. NIST AI RMF aligned. 81/81 tests passing, zero TypeScript errors. Built under the Robots For Peace framework.
 `TypeScript` · `Autonomous Agents` · `AI Governance`
+
 ---
+
+**[passive-intel](https://github.com/noisyloop/passive-intel)**
+Passive threat intelligence collection and correlation.
+`Python` · `OSINT` · `Threat Intel`
+
+---
+
 ## Other Work
+
 | Project | Description |
 |--------|-------------|
 | [Durpie](https://github.com/noisyloop/durpie) | Modular web security testing toolkit built on mitmproxy |
@@ -31,9 +49,13 @@ ModelGuard input/output validation. DecisionLedger audit trail. NIST AI RMF alig
 | [retro-os](https://github.com/noisyloop/retro-os) | Working retro OS with games, runs in the browser |
 | [prism-video-synth](https://github.com/noisyloop/prism-video-synth) | Mobile-optimized video synthesizer in React |
 | [pulse-drum-machine](https://github.com/noisyloop/pulse-drum-machine) | MIDI-capable drum machine for desktop and mobile |
+
 ---
+
 ## Stack
 `Rust` · `Python` · `TypeScript` · `JavaScript` · `React` · `Three.js` · `eBPF` · `mitmproxy` · `Ollama`
 Kernel-level tooling · Detection engineering · AI security · Autonomous systems · Creative coding
+
 ---
+
 > *The purpose is not just to build tools — but to fully understand how they work and why. Running them is not enough.*
