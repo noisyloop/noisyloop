@@ -1,3 +1,5 @@
+## Noisyloop
+
 Engineer, full-stack developer, creator. 20+ years writing code across the full stack, from product interfaces down to the systems layer where most people stop looking.
 
 AI for lab experiments + deeper understanding. I learn from the mistakes the LLM's make. Other labs (which I did not write about) are TryHackMe, HackTheBox, PortSwigger and more. This is essentially a research hub, but my write-ups don't include THM etc.
