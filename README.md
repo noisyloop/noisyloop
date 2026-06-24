@@ -1,8 +1,8 @@
 ## Noisyloop
 
-Engineer, full-stack developer, creator. 20+ years writing code across the full stack, from product interfaces down to the systems layer where most people stop looking.
+Engineer, full-stack developer, creator. 20+ years writing code across the full stack, from product interfaces down to the systems layer where most people AI Usage
 
-AI for lab experiments + deeper understanding. I learn from the mistakes the LLM's make. Other labs (which I did not write about) are TryHackMe, HackTheBox, PortSwigger and more. This is essentially a research hub, but my write-ups don't include THM etc.
+AI is part of my development workflow for research, learning, documentation, and code generation where appropriate. All architectural decisions, validation, testing, and final implementations are my responsibility. I treat AI as an assistant, not an authority. 
 
 ---
 
