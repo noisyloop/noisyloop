@@ -22,10 +22,7 @@ Detects BadUSB implants, HID injection devices, and hardware anomalies at the en
 
 ---
 
-**[Milly](https://github.com/noisyloop/milly)**
-The first local LLM with a built-in security layer.
-HMAC-signed memory. TF-IDF RAG. Air-gapped by design. Zero egress. 136 passing tests covering memory integrity, injection resistance, and audit logging.
-`Python` · `Ollama` · `AI Security`
+**[Milly](https://github.com/noisyloop/Milly)** — Local LLM with a built-in security layer. HMAC-signed memory, TF-IDF RAG, Guardian injection detection, and a tamper-evident audit trail. Zero egress by design. 157 passing tests covering memory integrity, injection resistance, and audit logging. `Python` · `Ollama` · `AI Security`
 
 ---
 
