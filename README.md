@@ -8,6 +8,13 @@ AI is part of my development workflow for research, learning, documentation, and
 
 ## Security Tooling
 
+**[Encoding Station]**(https://github.com/noisyloop/encoding-station)
+Client-side multi-transform encoder/decoder for CTF work and security research.
+
+Parallel mode runs all transforms simultaneously. Pipeline mode chains them in drag-reorderable steps. Base64, Hex, URL, HTML entities, ROT13/47, Binary, XOR — all processed locally, no server, no build step.
+
+`JavaScript` · `React` · `CTF` · `Security Research`
+
 **[Glasswally](https://github.com/noisyloop/glasswally)**
 Real-time LLM distillation attack detection via eBPF kernel uprobes.
 Hooks into inference processes at the kernel boundary. Fingerprints query patterns. Alerts before a model theft completes. MITRE ATT&CK mapped.
