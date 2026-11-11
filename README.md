@@ -6,7 +6,7 @@ Low-level software, security tooling, audio and games. Mostly Rust, C++ and Go, 
 
 | Project | Stack | What it is |
 | --- | --- | --- |
-| [btw](https://github.com/noisyloop/btw) | Swift, C, Shell, QML | A custom Arch-based Linux desktop with a fractal theme. Boots in a VM from a native macOS launcher on Apple silicon, one command on Windows (WSL), or installs on Arch and Omarchy. |
+| [btw](https://github.com/noisyloop/btw) | Swift, C, Shell, QML | A custom Arch-based Linux desktop with a fractal theme. You can remove Windowscompletely, and install "btw" from a USB. Boots in a VM from a native macOS launcher on Apple silicon, one command on Windows (WSL), or installs on Arch and Omarchy. |
 | [Fleet-51](https://github.com/noisyloop/Fleet-51) | Rust | Run a fleet of private AI bots entirely on your computer. Local models through Ollama, Hugging Face GGUF downloads, multi-bot teams, automations, and a bootable ISO for VM isolation. |
 
 ### Security
